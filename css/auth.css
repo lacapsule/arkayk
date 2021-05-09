@@ -1,0 +1,50 @@
+@import url("main/base.css");
+input {
+    border: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.mdp {
+    height: 10vh;
+    text-align: center;
+    line-height: 10%;
+    border-color: var(--dark-border);
+    border-style: dotted;
+    background-color: var(--text-color-light);
+    transition: 1.5s ease-in-out;
+}
+
+.mdp:hover {
+    line-height: 10%;
+    border-color: var(--color);
+    border-style: dotted;
+    background-color: var(--second-bg-color);
+    transition: 1.5s ease-in-out;
+}
+
+.mdp::placeholder {
+    display: none;
+}
+
+input[type=text] {
+    text-align: center;
+    color: var(--primary-color);
+    background-color: var(--text-color-light);
+    border: none;
+}
+
+input[type=submit] {
+    height: 10vh;
+    color: var(--text-color-dark);
+    background-color: var(--text-color-light);
+    transition: 0.5s ease-in-out;
+}
+
+input[type=submit]:hover {
+    height: 10vh;
+    color: var(--second-bg-color);
+    background-color: var(--third-bg-color);
+    transition: 0.5s ease-in-out;
+}

@@ -1,0 +1,38 @@
+:root {
+    --color: #050d75;
+    --first-bg-color: #0021db;
+    --second-bg-color: #dbdbdb;
+    --third-bg-color: black;
+    --fourth-bg-color: white;
+    /*fonts et BG fonts*/
+    --text-color-light: rgb(197, 180, 180);
+    --text-color-dark: darkslategray;
+    --primary-color: #6b6b6d;
+    --focus-color: #f3f308;
+    --visited-color: rgb(54, 190, 0, 0.5);
+    --validate-color: #007700;
+    --critical-color: #af0000;
+    --dark-border: rgba(35, 3, 212, 0.5);
+    --requete-text: #dbdbdb;
+    --requete-bg: rgb(25, 25, 27);
+    /*animation*/
+    --primary-animation: rgb(0, 0, 233);
+    --second-animation: orangered;
+    --third-animation: firebrick;
+    --fourth-animation: forestgreen;
+    --fifth-animation: rgb(34, 165, 34);
+    --sixth-animation: seagreen;
+    --seventh-animation: mediumaquamarine;
+    --eleventh-animation: lightseagreen;
+    --nineth-animation: goldenrod;
+    --tenth-animation: yellow;
+    --eleventh-animation: orange;
+    --twelveth-animation: peru;
+    --thirteenth-animation: chocolate;
+    --fourteenth-animation: #FF5733;
+    --fiveteeneth-animation: #900C3F;
+    --sixteenth-animation: #FFC300;
+    --seventeenth-animation: #C70039;
+    --eleventh-aniumation: crimson;
+    --twentith-animation: lightseagreen;
+}

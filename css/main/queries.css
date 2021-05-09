@@ -1,0 +1,225 @@
+@media print {
+    *,
+*:before,
+*:after,
+*:first-letter,
+p:first-line,
+div:first-line,
+blockquote:first-line,
+li:first-line {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+
+    @page {
+        margin: 1cm;
+    }
+
+    aside {
+        display: none;
+  }
+
+  #content {
+    display: block;
+    position: absolute;
+    left: 1cm;
+    top: 2cm;
+    right: 1cm;
+    bottom: 2cm;
+    margin-left: -3cm;
+    margin-right: -5cm;
+    padding: 0cm;
+    width: 21cm;
+    height: 27cm;
+    font-size: 0.30cm;
+}
+span {
+    margin-right: 0.20cm;
+}
+
+@media screen and (max-width: 950px) {
+    body {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    form {
+        display: block;
+        position: absolute;
+        top: 1%;
+        left: 5%;
+        bottom: 1%;
+        right: 5%;
+        width: 80%;
+        height: 100%;
+    }
+    input {
+        border: none;
+        display: block;
+        width: 100%;
+        height: 10%;
+        font-size: 1.2em;
+    }
+    aside {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 10%;
+        height: 60%;
+        background-color: transparent;
+    }
+    a>img {
+        padding: 4%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    body {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    form {
+        display: block;
+        position: absolute;
+        top: 1%;
+        left: 5%;
+        bottom: 1%;
+        right: 2%;
+        width: 80%;
+        height: 100%;
+    }
+    input {
+        border: none;
+        display: block;
+        width: 100%;
+        height: 10%;
+        font-size: 1.2em;
+    }
+    aside {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 10%;
+        height: auto;
+        background-color: transparent;
+    }
+    a>img {
+        padding: 4%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    body {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    form {
+        display: block;
+        position: absolute;
+        top: 2%;
+        left: 8rem;
+        bottom: 15%;
+        right: 0;
+        width: 65%;
+        height: 15%;
+        font-size: 1em;
+        margin-bottom: 10%;
+    }
+    input {
+        border: none;
+        display: block;
+        width: 100%;
+        height: 35%;
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-height: 420px) {
+    body {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    form {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 8rem;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 30rem;
+        font-size: 0.8em;
+    }
+    input {
+        border: none;
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        min-height: 0.8rem;
+        font-size: 1.5em;
+    }
+    .formfield-select {
+        position: relative;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin-top: 0;
+        font-size: 0.6em;
+        background-color: transparent;
+    }
+    .formfield-select>label {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 0.6em;
+        color: var(--third-bg-color);
+    }
+    .formfield-select--container {
+        position: relative;
+        height: 1rem;
+        line-height: 1rem;
+        background-color: transparent;
+        border: transparent 5px solid;
+        font-size: 1.5em;
+        overflow: hidden;
+    }
+    .formfield-select--container select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        font-size: 1.6em;
+        color: var(--third-bg-color);
+        width: 100.25%;
+        border: 0;
+        margin: 0;
+        border-radius: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .formfield-select--container::after {
+        content: '';
+        position: absolute;
+        height: auto;
+        top: 50%;
+        margin-top: -3px;
+        right: 0.75em;
+        display: block;
+        width: 0;
+        height: 0;
+        border-color: transparent;
+        border-top-color: var(--third-bg-color);
+        border-width: 4px;
+        border-style: solid;
+        pointer-events: none;
+    }
+}

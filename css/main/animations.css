@@ -1,0 +1,113 @@
+@keyframes bgChange {
+    0% {
+        background-color: var(--first-bg-color);
+        opacity: 95%;
+        z-index: -1;
+    }
+    5% {
+        background-color: var(--primary-animation);
+        opacity: 95%;
+        z-index: -1;
+    }
+    10% {
+        background-color: var(--second-animation);
+        opacity: 95%;
+        z-index: -1;
+    }
+    15% {
+        background-color: var(--third-animation);
+        opacity: 95%;
+        z-index: -1;
+    }
+    20% {
+        background-color: var(--fourth-animation);
+        opacity: 95%;
+        z-index: -1;
+    }
+    25% {
+        background-color: var(--fifth-animation);
+        opacity: 95%;
+        z-index: -1;
+    }
+    30% {
+        background-color: var(--sixth-animation);
+        opacity: 95%;
+        z-index: -1;
+    }
+    35% {
+        background-color: var(--seventh-animation);
+        opacity: 95%;
+        z-index: -1;
+    }
+    40% {
+        background-color: var(--eleventh-animation);
+        opacity: 95%;
+        z-index: -1;
+    }
+    45% {
+        background-color: var(--nineth-animation);
+        opacity: 95%;
+        z-index: -1;
+    }
+    50% {
+        background-color: var(--tenth-animation);
+        opacity: 95%;
+        z-index: -1;
+    }
+    55% {
+        background-color: var(--eleventh-animation);
+        opacity: 95%;
+        z-index: -1;
+    }
+    65% {
+        background-color: var(--twelveth-animation);
+        opacity: 95%;
+        z-index: -1;
+    }
+    70% {
+        background-color: var(--thirteenth-animation);
+        opacity: 95%;
+        z-index: -1;
+    }
+    75% {
+        background-color: var(--fourteenth-animation);
+        opacity: 95%;
+        z-index: -1;
+    }
+    80% {
+        background-color: var(--fiveteeneth-animation);
+        opacity: 95%;
+        z-index: -1;
+    }
+    85% {
+        background-color: var(--sixteenth-animation);
+        opacity: 95%;
+        z-index: -1;
+    }
+    90% {
+        background-color: var(--seventeenth-animation);
+        opacity: 95%;
+        z-index: -1;
+    }
+    95% {
+        background-color: var(--eleventh-aniumation);
+        opacity: 95%;
+        z-index: -1;
+    }
+    100% {
+        background-color: var(--twentith-animation);
+        opacity: 95%;
+        z-index: -1;
+    }
+}
+
+@keyframes clignotant {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgb(17, 17, 17);
+        box-shadow: 0 0 0 0 rgb(27, 15, 15);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 5px 0px rgb(3, 3, 3);
+        box-shadow: 0 0 5px 0px rgb(0, 0, 0);
+    }
+}

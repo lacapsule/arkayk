@@ -1,0 +1,52 @@
+@import url("main/base.css");
+aside {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 10%;
+    height: auto;
+    padding: 2%;
+    background-color: transparent;
+}
+
+img[src$=".png"] {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgb(207, 7, 7, 0.9);
+    animation: 0.9s ease-in-out clignotant infinite;
+    box-shadow: 0 0 10px 0px rgb(0, 0, 0);
+    z-index: 1;
+}
+
+a>img {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    padding: 4%;
+    transition: 0.7s ease-in-out;
+    background-color: transparent;
+    z-index: 0;
+}
+
+a>img:hover {
+    width: 100%;
+    margin: 3%;
+    padding: 3%;
+    transform: rotate(1deg);
+    background-color: rgb(255, 255, 255, 0.2);
+    animation: 1s ease-in-out clignotant infinite;
+    transition: 0.7s ease-in-out;
+    z-index: 2;
+}

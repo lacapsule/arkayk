@@ -1,0 +1,66 @@
+@import url("main/colors.css");
+@import url("main/animations.css");
+body {
+    width: 100%;
+    height: 100%;
+    animation: 400s ease bgChange infinite;
+    z-index: 0;
+}
+
+#container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+    grid-gap: 10px;
+    grid-template: repeat(3, 1fr) / 20% 20% 20%;
+    grid-template-areas: "uc ecran keyboard" "mouse laptop print" "tablet adh crud"
+}
+
+img {
+    width: 100%;
+    height: auto;
+    transition: 1.8s ease-in-out;
+}
+
+img:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: rotate(5deg);
+    transition: 1.8s ease-in-out;
+}
+
+[src='../img/uc.png'] {
+    grid-area: uc;
+}
+
+[src='../img/screen.png'] {
+    grid-area: ecran;
+}
+
+[src='../img/keyboard.png'] {
+    grid-area: keyboard;
+}
+
+[src='../img/mouse.png'] {
+    grid-area: mouse;
+}
+
+[src='../img/laptop.png'] {
+    grid-area: laptop;
+}
+
+[src='../img/print.png'] {
+    grid-area: print;
+}
+
+[src='../img/tablet.png'] {
+    grid-area: tablet;
+}
+
+[src='../img/adh.png'] {
+    grid-area: adh;
+}
+
+[src='../img/crud.png'] {
+    grid-area: crud;
+}

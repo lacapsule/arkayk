@@ -1,0 +1,240 @@
+@import url("reset.css");
+@import url("colors.css");
+@import url("header.css");
+@import url("animations.css");
+@import url("queries.css");
+@import url("footer.css");
+body {
+    width: 100%;
+    height: 100%;
+    animation: 1500s ease-in-out bgChange infinite;
+}
+
+#content {
+    display: flex;
+    flex-direction: row wrap;
+    position: relative;
+    left: 15%;
+    top: 0;
+    right: 2%;
+    bottom: 0;
+    width: 100%;
+    height: 3.2rem;
+}
+
+hr {
+    background-color: white;
+}
+
+span {
+    width: 13%;
+    height: 3.2rem;
+    padding: 1%;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span:first-child {
+    max-width: 2%;
+}
+
+.title1 {
+    grid-area: one;
+    background-color: var(--requete-text);
+    color: var(--requete-bg);
+}
+
+.title2 {
+    grid-area: two;
+    background-color: var(--requete-text);
+    color: var(--requete-bg);
+}
+
+.title3 {
+    grid-area: three;
+    background-color: var(--requete-text);
+    color: var(--requete-bg);
+}
+
+.title4 {
+    grid-area: four;
+    background-color: var(--requete-text);
+    color: var(--requete-bg);
+}
+
+.title5 {
+    grid-area: five;
+    background-color: var(--requete-text);
+    color: var(--requete-bg);
+}
+
+.title6 {
+    grid-area: six;
+    background-color: var(--requete-text);
+    color: var(--requete-bg);
+}
+
+.title7 {
+    grid-area: seven;
+    background-color: var(--requete-text);
+    color: var(--requete-bg);
+}
+
+.title8 {
+    grid-area: eight;
+    background-color: var(--requete-text);
+    color: var(--requete-bg);
+}
+
+.title9 {
+    grid-area: nine;
+    background-color: var(--requete-text);
+    color: var(--requete-bg);
+}
+
+.title10 {
+    grid-area: ten;
+    background-color: var(--requete-text);
+    color: var(--requete-bg);
+}
+
+.title11 {
+    grid-area: eleven;
+    background-color: var(--requete-text);
+    color: var(--requete-bg);
+}
+
+.title12 {
+    grid-area: twelve;
+    background-color: var(--requete-text);
+    color: var(--requete-bg);
+}
+
+.title13 {
+    grid-area: thirteen;
+    background-color: var(--requete-text);
+    color: var(--requete-bg);
+}
+
+.title14 {
+    grid-area: fourteen;
+    background-color: var(--requete-text);
+    color: var(--requete-bg);
+}
+
+.req1 {
+    grid-area: one;
+    background-color: var(--requete-bg);
+    color: var(--requete-text);
+}
+
+.req2 {
+    grid-area: two;
+    background-color: var(--requete-bg);
+    color: var(--requete-text);
+}
+
+.req3 {
+    grid-area: three;
+    background-color: var(--requete-bg);
+    color: var(--requete-text);
+}
+
+.req4 {
+    grid-area: four;
+    background-color: var(--requete-bg);
+    color: var(--requete-text);
+}
+
+.req5 {
+    grid-area: five;
+    background-color: var(--requete-bg);
+    color: var(--requete-text);
+}
+
+.req6 {
+    grid-area: six;
+    background-color: var(--requete-bg);
+    color: var(--requete-text);
+    height: 1.2em;
+    align-self: center;
+}
+
+.req7 {
+    grid-area: seven;
+    background-color: var(--requete-bg);
+    color: var(--requete-text);
+}
+
+.req8 {
+    grid-area: eight;
+    background-color: var(--requete-bg);
+    color: var(--requete-text);
+}
+
+.req9 {
+    grid-area: nine;
+    background-color: var(--requete-bg);
+    color: var(--requete-text);
+}
+
+.req10 {
+    grid-area: ten;
+    background-color: var(--requete-bg);
+    color: var(--requete-text);
+}
+
+.req11 {
+    grid-area: eleven;
+    background-color: var(--requete-bg);
+    color: var(--requete-text);
+}
+
+.req12 {
+    grid-area: twelve;
+    background-color: var(--requete-bg);
+    color: var(--requete-text);
+}
+
+.req13 {
+    grid-area: thirteen;
+    background-color: var(--requete-bg);
+    color: var(--requete-text);
+}
+
+.req14 {
+    grid-area: fourteen;
+    background-color: var(--requete-bg);
+    color: var(--requete-text);
+}
+
+button {
+    width: 2rem;
+    height: 2rem;
+    line-height: 1.8rem;
+    border: none;
+    filter: invert(90%);
+    transition: 0.8s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.5);
+    filter: invert(0);
+}
+
+#new {
+    background-image: url(../../img/new.png);
+    background-size: cover;
+}
+
+#edit {
+    background-image: url(../../img/edit.png);
+    background-size: cover;
+}
+
+#del {
+    background-image: url(../../img/del_noir.png);
+    background-size: cover;
+}

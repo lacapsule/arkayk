@@ -1,0 +1,16 @@
+* {
+    background-color: #0021db;
+    font-family: Verdana, 'Segoe UI', Tahoma, Verdana, sans-serif; 
+    font-size: 1rem;
+}
+body {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+
